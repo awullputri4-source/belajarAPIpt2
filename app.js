@@ -1,5 +1,5 @@
 // URL API FastAPI kamu
-const apiUrl = 'http://192.168.110.57:8000/catatan';
+const apiUrl = 'http://localhost:8000/catatan';
 
 // Elemen HTML
 const daftarCatatan = document.getElementById('daftarCatatan');
