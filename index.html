@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplikasi Catatan Ku</title>
+    <!-- Kita menggunakan Font Google 'Inter' agar terlihat modern -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="glass-container">
+        <h1> Rencana Hari Ini</h1>
+
+        <div class="input-section">
+            <input type="text" id="inputTugas" placeholder="Apa yang ingin kamu kerjakan?">
+            <button onclick="tambahTugas()">Tambah</button>
+        </div>
+
+        <ul id="daftarCatatan">
+            <!-- Data dari API akan muncul di sini nanti -->
+            <!-- Sebagai contoh sementara, kita beri satu daftar statis -->
+            <li class="tugas-item">Sedang memuat data dari API...</li>
+        </ul>
+    </div>
+
+    <!-- Menghubungkan logika Javascript -->
+    <script src="app.js"></script>
+</body>
+
+</html>
